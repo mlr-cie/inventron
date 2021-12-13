@@ -4,7 +4,7 @@ import { Link as LinkS } from 'react-scroll';
 
 export const Nav = styled.nav`
     background: background-color: #b8c6db;
-    background-image: linear-gradient(315deg, #b8c6db 0%, #f5f7fa 74%);
+    background-image: linear-gradient(to right, #b8c6db 0%, #f5f7fa 74%);
     height: 80px;
     margin-top: -80px;
     display: flex;
