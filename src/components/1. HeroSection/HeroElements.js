@@ -18,8 +18,8 @@ export const HeroContainer = styled.div`
         top: 0;
         right: 0;
         bottom: 0;
-        background: linear-gradient(180deg, rgba(0,0,0,0.2) 0%, rgba(0,0,0,0.6) 100%)
-                    linear-gradient(180deg, rgba(0,0,0,0.2) 0%, transparent 100%);
+        background: background-color: #b8c6db;
+            background-image: linear-gradient(315deg, #b8c6db 0%, #f5f7fa 74%);
         z-index: 2;
     }
 `
@@ -54,7 +54,7 @@ export const HeroContent = styled.div`
 `
 
 export const HeroH1 = styled.h1`
-    color: #fff;
+    color: #000000;
     font-size: 48px;
     text-align: center;
 
@@ -69,7 +69,7 @@ export const HeroH1 = styled.h1`
 
 export const HeroP = styled.p`
     margin-top: 24px;
-    color: #fff;
+    color: #000000;
     font-size: 24px;
     text-align: center;
     max-width: 600px;

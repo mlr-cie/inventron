@@ -29,6 +29,7 @@ const Navbar = ({ toggle }) => {
 
     return (
         <>
+        
             <Nav scrollNav={scrollNav}>
                 <NavbarContainer>
                     <NavLogo to="/" onClick={toggleHome}>

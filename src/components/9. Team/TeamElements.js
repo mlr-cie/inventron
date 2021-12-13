@@ -5,8 +5,10 @@ export const TeamContainer = styled.div`
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background: #010606;
+    background-color: #ffffff;
+    background-image: linear-gradient(315deg, #ffffff 0%, #d7e1ec 74%);
     padding-bottom: 50px;
+
 
     /* @media screen and (max-width: 768px) {
         height: 1100px;

@@ -14,7 +14,7 @@ const HeroSection = () => {
     return (
         <HeroContainer id="home">
             <HeroContent>
-                <HeroH1><Logo size={70}/></HeroH1>
+                
                 <HeroP>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed condimentum orci.</HeroP>
                 <HeroBtnWrapper>
                     <Button

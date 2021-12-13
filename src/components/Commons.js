@@ -6,7 +6,8 @@ export const Container = styled.div`
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background: #010606;
+    background-color: #b8c6db;
+    background-image: linear-gradient(-115deg, #b8c6db 0%, #f5f7fa 74%);
 
     @media screen and (max-width: 768px) {
         height: 1100px;
@@ -42,7 +43,7 @@ export const Wrapper = styled.div`
 
 export const HeadingH1 = styled.h1`
     font-size: 2.5rem;
-    color: #fff;   
+    color: #00000;   
     margin-bottom: 64px;
 
     @media screen and (max-width: 480px) {
