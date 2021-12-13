@@ -6,7 +6,7 @@ export const TeamContainer = styled.div`
     justify-content: center;
     align-items: center;
     background-color: #ffffff;
-    background-image: linear-gradient(315deg, #ffffff 0%, #d7e1ec 74%);
+    background-image: linear-gradient(to right, #b8c6db 0%, #f5f7fa 74%);
     padding-bottom: 50px;
 
 

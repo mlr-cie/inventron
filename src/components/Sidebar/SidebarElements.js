@@ -34,7 +34,7 @@ export const Icon = styled.div`
 export const SidebarWrapper = styled.div`
     
     background: background-color: #b8c6db;
-    background-image: linear-gradient(315deg, #b8c6db 0%, #f5f7fa 74%);
+    background-image: linear-gradient(to right, #b8c6db 0%, #f5f7fa 74%);
 `
 
 export const SidebarMenu = styled.ul`

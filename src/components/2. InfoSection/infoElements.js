@@ -3,10 +3,12 @@ import styled from 'styled-components';
 export const InfoContainer = styled.div`
     color: #fff;
     background-color: #b8c6db;
-    background-image: linear-gradient(-115deg, #b8c6db 0%, #f5f7fa 74%);
+    background-image: linear-gradient(to right, #b8c6db 0%, #f5f7fa 74%);
 
     @media screen and (max-width: 768px) {
         padding: 100px 0;
+        background-image: linear-gradient(to right, #b8c6db 0%, #f5f7fa 74%);
+
     }
 `
 
