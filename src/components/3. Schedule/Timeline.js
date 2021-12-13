@@ -10,6 +10,8 @@ import TimelineDot from '@material-ui/lab/TimelineDot';
 import Paper from '@material-ui/core/Paper';
 import Typography from '@material-ui/core/Typography';
 
+
+
 const useStyles = makeStyles((theme) => ({
     paper: {
         padding: '6px 16px',
@@ -34,6 +36,7 @@ export default function CustomizedTimeline() {
     const classes = useStyles();
 
     return (
+        
         <ThemeProvider theme={theme}>
             <Timeline align="alternate">
                 <TimelineItem>
