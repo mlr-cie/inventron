@@ -1,8 +1,8 @@
 import React from 'react';
-import { Container, Wrapper, HeadingH1, Container2 } from "../Commons";
+import { Container, Wrapper, HeadingH1, Container2 , ProblemStatements} from "../Commons";
 import Problemstatement_cards from './Problemstatement_cards';
 
-const ProblemStatements = () => {
+const Problemstatements = () => {
     return (
         <> 
         <Container2 className = "Problemstatement_cards">
@@ -13,4 +13,4 @@ const ProblemStatements = () => {
     )
 }
 
-export default ProblemStatements;
+export default Problemstatements;

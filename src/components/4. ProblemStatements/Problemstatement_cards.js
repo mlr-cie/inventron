@@ -8,7 +8,7 @@ import Button from '@material-ui/core/Button';
 import TextInfoContent from '@mui-treasury/components/content/textInfo';
 import { useBlogTextInfoContentStyles } from '@mui-treasury/styles/textInfoContent/blog';
 import { useOverShadowStyles } from '@mui-treasury/styles/shadow/over';
-import { Container, Wrapper ,ProblemStatements} from '../Commons';
+import { Container, Wrapper ,ProblemStatements,ProblemSwrapper} from '../Commons';
 
 const useStyles = makeStyles(({ breakpoints, spacing }) => ({
 
@@ -117,6 +117,7 @@ export const Problemstatement_cards = React.memo(function BlogCard() {
                 <Button className={buttonStyles}>Read more</Button>
             </CardContent>
         </Card>
+        <Wrapper/>
         <Card className={cx(styles.root, shadowStyles.root)}>
             <CardMedia
                 className={styles.media}
@@ -136,7 +137,14 @@ export const Problemstatement_cards = React.memo(function BlogCard() {
                 <Button className={buttonStyles}>Read more</Button>
             </CardContent>
         </Card>
+        <Wrapper/>
         <Card className={cx(styles.root, shadowStyles.root)}>
+        <CardMedia
+                className={styles.media}
+                image={
+                    'https://i.ibb.co/Qm94gp8/hospital.jpg'
+                }
+            />
         <CardContent>
                 <TextInfoContent
                     classes={contentStyles}
@@ -149,7 +157,14 @@ export const Problemstatement_cards = React.memo(function BlogCard() {
                 <Button className={buttonStyles}>Read more</Button>
             </CardContent>
         </Card>
+        <Wrapper/>
         <Card className={cx(styles.root, shadowStyles.root)}>
+        <CardMedia
+                className={styles.media}
+                image={
+                    'https://i.ibb.co/Qm94gp8/hospital.jpg'
+                }
+            />
         <CardContent>
                 <TextInfoContent
                     classes={contentStyles}
@@ -162,6 +177,7 @@ export const Problemstatement_cards = React.memo(function BlogCard() {
                 <Button className={buttonStyles}>Read more</Button>
             </CardContent>
         </Card>
+
         </ProblemStatements>
         </>
     );
