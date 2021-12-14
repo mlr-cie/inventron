@@ -88,7 +88,7 @@ export const Problemstatement_cards = React.memo(function BlogCard() {
             <CardContent>
                 <TextInfoContent
                     classes={contentStyles}
-                    overline={'Problem statement 1'}
+                    overline={'Theme 1'}
                     heading={'Healthcare'}
                     body={
                         'Git is a distributed version control system. Every dev has a working copy of the code and...'
@@ -108,7 +108,7 @@ export const Problemstatement_cards = React.memo(function BlogCard() {
             <CardContent>
                 <TextInfoContent
                     classes={contentStyles}
-                    overline={'Problem statement 2'}
+                    overline={'Theme 2'}
                     heading={'Cybersecurity'}
                     body={
                         'Git is a distributed version control system. Every dev has a working copy of the code and...'
@@ -128,7 +128,7 @@ export const Problemstatement_cards = React.memo(function BlogCard() {
             <CardContent>
                 <TextInfoContent
                     classes={contentStyles}
-                    overline={'Problem statement 3'}
+                    overline={'Theme 3'}
                     heading={'Nutrition and diet'}
                     body={
                         'Git is a distributed version control system. Every dev has a working copy of the code and...'
@@ -148,13 +148,13 @@ export const Problemstatement_cards = React.memo(function BlogCard() {
         <CardContent>
                 <TextInfoContent
                     classes={contentStyles}
-                    overline={'Problem statement 4'}
+                    overline={'Theme 4'}
                     heading={'Mental wellbeing'}
                     body={
                         'Git is a distributed version control system. Every dev has a working copy of the code and...'
                     }
                 />
-                <Button className={buttonStyles}>Read more</Button>
+                <Button className={buttonStyles} >Read more</Button>
             </CardContent>
         </Card>
         <Wrapper/>
@@ -168,8 +168,26 @@ export const Problemstatement_cards = React.memo(function BlogCard() {
         <CardContent>
                 <TextInfoContent
                     classes={contentStyles}
-                    overline={'Problem statement 5'}
-                    heading={'Virtual interaction'}
+                    overline={'Theme 5'}
+                    heading={'Virtual communications'}
+                    body={
+                        'Git is a distributed version control system. Every dev has a working copy of the code and...'
+                    }
+                />
+                <Button className={buttonStyles}>Read more</Button>
+            </CardContent>
+        </Card><Card className={cx(styles.root, shadowStyles.root)}>
+        <CardMedia
+                className={styles.media}
+                image={
+                    'https://i.ibb.co/Qm94gp8/hospital.jpg'
+                }
+            />
+        <CardContent>
+                <TextInfoContent
+                    classes={contentStyles}
+                    overline={'Theme 6'}
+                    heading={'Social Innovation'}
                     body={
                         'Git is a distributed version control system. Every dev has a working copy of the code and...'
                     }
