@@ -42,7 +42,7 @@ const InfoSection = ({ id,
                         </Column1>
                         <Column2>
                             <ImgWrap>
-                                <Img src={img} alt={alt} />
+                                <Img src="https://i.ibb.co/SXsqyq3/Logo.png" alt={alt}  />
                             </ImgWrap>
                         </Column2>
                     </InfoRow>

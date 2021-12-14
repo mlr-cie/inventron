@@ -10,6 +10,8 @@ import TimelineDot from '@material-ui/lab/TimelineDot';
 import Paper from '@material-ui/core/Paper';
 import Typography from '@material-ui/core/Typography';
 
+
+
 const useStyles = makeStyles((theme) => ({
     paper: {
         padding: '6px 16px',
@@ -46,15 +48,23 @@ export default function CustomizedTimeline() {
                         <TimelineDot />
                         <TimelineConnector />
                     </TimelineSeparator>
+                    
                     <TimelineContent>
+                    
                         <Paper elevation={3} className={classes.paper}>
+                        
                             <Typography variant="h6" component="h1">
                                 Registrations Start
                             </Typography>
+                        
                             <Typography>Lorem ipsum dolor sit amet, consectetur adipiscing elit</Typography>
+                            
                         </Paper>
+                        
                     </TimelineContent>
+                    
                 </TimelineItem>
+
                 <TimelineItem>
                     <TimelineOppositeContent>
                         <Typography variant="body2" color="textSecondary">
@@ -117,5 +127,6 @@ export default function CustomizedTimeline() {
                 </TimelineItem>
             </Timeline>
         </ThemeProvider>
+        
     );
 }

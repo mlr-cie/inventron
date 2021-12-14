@@ -36,7 +36,6 @@ const Home = () => {
             <Sponsors />
             <Judges />
             <FAQs />
-            <Team />
             <Footer />
         </>
     )
