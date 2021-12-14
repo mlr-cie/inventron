@@ -7,7 +7,7 @@ const ActualLogo = styled.img`
 
 const Logo = ({size}) => {
     return (
-        <ActualLogo size={size} src={require("../../images/Logo.png").default}/>
+        <ActualLogo size={size} src="https://i.ibb.co/SXsqyq3/Logo.png"/>
     )
 }
 
