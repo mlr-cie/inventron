@@ -1,14 +1,14 @@
 import React from 'react';
-import { Container, HeadingH1, Wrapper } from "../Commons"
+import { Container, HeadingH1, Wrapper , Faq} from "../Commons"
 import SimpleAccordion from './SimpleAccordion';
 const FAQs = () => {
     return (
         <>
-            <Container id="faqs">
+            <Faq>
                 <HeadingH1>FAQs</HeadingH1>
                 <Wrapper />
                 <SimpleAccordion/>
-            </Container>
+            </Faq>
         </>
     )
 }

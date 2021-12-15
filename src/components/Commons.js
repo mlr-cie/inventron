@@ -20,6 +20,7 @@ export const Container = styled.div`
     @media screen and (max-width: 480px) {
         height: 1300px;
     }
+    
 `
 
 export const Wrapper = styled.div`
@@ -116,4 +117,32 @@ export const ProblemSwrapper = styled.div`
     @media screen and (max-width: 768px) {
         width: 100%;
     }       
+`
+export const Faq = styled.div`
+    height: 900px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #b8c6db;
+    background-image: linear-gradient(to right, #b8c6db 0%, #f5f7fa 74%);
+
+    @media screen and (max-width: 964px) {
+        height: 500px;
+        padding-left :  30px;
+        padding-right : 30px;
+        
+    }
+    @media screen and (max-width: 768px) {
+        height: 1100px;
+        padding-left : 20px;
+        padding-right : 20px;
+    }
+
+    @media screen and (max-width: 480px) {
+        height: 1300px;
+        padding-left : 20px;
+        padding-right : 20px;
+    }
+    
 `
