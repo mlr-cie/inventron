@@ -80,14 +80,14 @@ export const ProblemStatements = styled.div`
     background-image: linear-gradient(to right, #b8c6db 0%, #f5f7fa 74%);
     
     @media screen and (max-width: 964px) {
-        height: 2500px;
-        padding-top : 50px
+        height: 3000px;
+        padding-top : 0px
 
     }
 
     @media screen and (max-width: 480px) {
-        height: 2300px;
-        padding : 20px 20px;
+        height: 3000px;
+        padding : 0px 20px;
     }
 `
 
@@ -107,7 +107,7 @@ export const HeadingH1 = styled.h1`
 
     @media screen and (max-width: 480px) {
         font-size: 2rem;
-        padding: 0 20px;
+        padding: 50 20px;
 
     }
 `
