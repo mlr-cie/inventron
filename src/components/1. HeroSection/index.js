@@ -1,33 +1,43 @@
-import React, { useState } from 'react'
-import { HeroContainer, HeroContent, HeroH1, HeroP, HeroBtnWrapper, ArrowForward, ArrowRight } from "./HeroElements"
-import { Button } from '../ButtonElements'
-import Logo from '../Logo'
+import React, { useState } from "react";
+import {
+  HeroContainer,
+  HeroContent,
+  HeroH1,
+  HeroP,
+  HeroBtnWrapper,
+  ArrowForward,
+  ArrowRight,
+  btnreg,
+} from "./HeroElements";
+import { Button } from "../ButtonElements";
+import Logo from "../HeroImg";
 
 const HeroSection = () => {
+  const [hover, setHover] = useState(false);
 
-    const [hover, setHover] = useState(false);
+  const onHover = () => {
+    setHover(!hover);
+  };
 
-    const onHover = () => {
-        setHover(!hover);
-    }
+  return (
+    <HeroContainer id="home">
+      <HeroContent>
+        <Logo></Logo>
+        <HeroP>Formulate Infinite Possibilities</HeroP>
+        <HeroBtnWrapper>
+          <Button
+            to="signup"
+            onMouseEnter={onHover}
+            onMouseLeave={onHover}
+            primary="true"
+            dark="true"
+          >
+            Register Now! {hover ? <ArrowForward /> : <ArrowRight />}
+          </Button>
+        </HeroBtnWrapper>
+      </HeroContent>
+    </HeroContainer>
+  );
+};
 
-    return (
-        <HeroContainer id="home">
-            <HeroContent>
-                
-                <HeroP>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed condimentum orci.</HeroP>
-                <HeroBtnWrapper>
-                    <Button
-                        to="signup"
-                        onMouseEnter={onHover}
-                        onMouseLeave={onHover}
-                        primary="true"
-                        dark="true"
-                    >Register Now! {hover ? <ArrowForward /> : <ArrowRight />}</Button>
-                </HeroBtnWrapper>
-            </HeroContent>
-        </HeroContainer>
-    )
-}
-
-export default HeroSection
+export default HeroSection;
